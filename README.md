@@ -5,7 +5,7 @@ ___
 ```console
 bundle
 ```
- In order to add a post paste it into the ```_posts``` folder. On top of the folder add the following:
+ In order to add a post paste it into the ```_posts``` folder. On top of the file add the following:
 ```console
 ---
 title: <Title of the post>
@@ -23,8 +23,15 @@ Post has to start with YYYY-MM-DD-*
 More info › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
 -------------------------------------
  {author_id}:
-   name: {full name}
+  name: <full name>
+  url: <homepage_of_author><optional>
 -------------------------------------
+Adding authors to post
+---
+author: <author_id>                     # for single entry
+# or
+authors: [<author1_id>, <author2_id>]   # for multiple entries
+---
 ```
 3. Run the following in project root: 
 ```console
