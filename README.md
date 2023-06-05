@@ -2,9 +2,9 @@ Setting up locally
 ___
 1. Install https://jekyllrb.com/docs/installation/
 . Run in root folder of the repository 
-``console
-undle
-``
+```console
+bundle
+```
  In order to add a post paste it into the ```_posts``` folder. On top of the folder add the following:
 ```console
 ---
